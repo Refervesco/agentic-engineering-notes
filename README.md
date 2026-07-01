@@ -24,8 +24,8 @@ That is roughly 28k tokens saved on every turn, for the life of every session, w
 Read it: [context-diet.md](./context-diet.md)
 
 ## ⚙️ The system behind it: HAS
-
-The diet is one move inside a larger system I am building and testing in the open: multiple independent coding agents working one codebase with no orchestrator, coordinating through durable shared state and explicit written rules instead of messaging each other. I call it HAS (Holacratic Agentic System).
+An orchestrator-free architecture for AI coding agents.
+The diet is one move inside a larger system I am building and testing in the open: multiple independent coding agents working one codebase with no orchestrator. Instead of a planner agent coordinating the others, coordination lives in durable shared state and a written constitution, with the human as final arbiter, so no single agent becomes the point of failure for knowledge. I call it HAS (Holacratic Agentic System).
 
 Two ideas do the heavy lifting:
 
